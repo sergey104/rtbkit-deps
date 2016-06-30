@@ -1,0 +1,14 @@
+Makefile.in
+Makefile
+aclocal.m4
+autom4te.cache
+config.log
+config.status
+configure
+libtool
+cairomm-1.0.pc
+install-sh
+missing
+mkinstalldirs
+*.swp
+.project

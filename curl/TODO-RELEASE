@@ -1,0 +1,10 @@
+To be addressed in 7.27
+=======================
+
+309 - metalink support for the curl tool
+
+310 - a new authentication callback
+
+311 - support for SSPI schannel for SSL on windows
+
+312 - 
