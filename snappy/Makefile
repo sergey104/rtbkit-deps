@@ -93,9 +93,7 @@ DIST_COMMON = INSTALL NEWS README AUTHORS ChangeLog \
 	missing ltmain.sh
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/gtest.m4 \
-	$(top_srcdir)/m4/libtool.m4 $(top_srcdir)/m4/ltoptions.m4 \
-	$(top_srcdir)/m4/ltsugar.m4 $(top_srcdir)/m4/ltversion.m4 \
-	$(top_srcdir)/m4/lt~obsolete.m4 $(top_srcdir)/configure.ac
+	$(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
@@ -416,14 +414,14 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/fil/rtb/rtbkit-deps/snappy/missing aclocal-1.14
+ACLOCAL = ${SHELL} /home/ubuntu/rtbkit-deps/snappy/missing aclocal-1.14
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
-AUTOCONF = ${SHELL} /home/fil/rtb/rtbkit-deps/snappy/missing autoconf
-AUTOHEADER = ${SHELL} /home/fil/rtb/rtbkit-deps/snappy/missing autoheader
-AUTOMAKE = ${SHELL} /home/fil/rtb/rtbkit-deps/snappy/missing automake-1.14
-AWK = mawk
+AUTOCONF = ${SHELL} /home/ubuntu/rtbkit-deps/snappy/missing autoconf
+AUTOHEADER = ${SHELL} /home/ubuntu/rtbkit-deps/snappy/missing autoheader
+AUTOMAKE = ${SHELL} /home/ubuntu/rtbkit-deps/snappy/missing automake-1.14
+AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2
@@ -467,7 +465,7 @@ LIBTOOL_DEPS = ./ltmain.sh
 LIPO = 
 LN_S = ln -s
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/fil/rtb/rtbkit-deps/snappy/missing makeinfo
+MAKEINFO = ${SHELL} /home/ubuntu/rtbkit-deps/snappy/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
 NM = /usr/bin/nm -B
@@ -486,7 +484,7 @@ PACKAGE_VERSION = 1.1.2
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
-PKG_CONFIG_PATH = /home/fil/local/lib/pkgconfig/:/home/fil/local/lib/pkg-config/
+PKG_CONFIG_PATH = /home/ubuntu/local/lib/pkgconfig/:/home/ubuntu/local/lib/pkg-config/
 RANLIB = ranlib
 SED = /bin/sed
 SET_MAKE = 
@@ -498,10 +496,10 @@ SNAPPY_PATCHLEVEL = 2
 STRIP = strip
 UNITTEST_LIBS = -lz 
 VERSION = 1.1.2
-abs_builddir = /home/fil/rtb/rtbkit-deps/snappy
-abs_srcdir = /home/fil/rtb/rtbkit-deps/snappy
-abs_top_builddir = /home/fil/rtb/rtbkit-deps/snappy
-abs_top_srcdir = /home/fil/rtb/rtbkit-deps/snappy
+abs_builddir = /home/ubuntu/rtbkit-deps/snappy
+abs_srcdir = /home/ubuntu/rtbkit-deps/snappy
+abs_top_builddir = /home/ubuntu/rtbkit-deps/snappy
+abs_top_srcdir = /home/ubuntu/rtbkit-deps/snappy
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -536,7 +534,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/fil/rtb/rtbkit-deps/snappy/install-sh
+install_sh = ${SHELL} /home/ubuntu/rtbkit-deps/snappy/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -545,7 +543,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/fil/local
+prefix = /home/ubuntu/local
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin

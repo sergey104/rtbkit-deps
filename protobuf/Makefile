@@ -84,7 +84,7 @@ DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/configure $(am__configure_deps) \
 	$(srcdir)/config.h.in $(srcdir)/protobuf.pc.in \
 	$(srcdir)/protobuf-lite.pc.in compile config.guess config.sub \
-	depcomp install-sh missing ltmain.sh
+	install-sh missing ltmain.sh
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/ac_system_extensions.m4 \
 	$(top_srcdir)/m4/acx_check_suncc.m4 \
@@ -227,14 +227,14 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/fil/rtb/rtbkit-deps/protobuf/missing aclocal-1.14
+ACLOCAL = ${SHELL} /home/ubuntu/rtbkit-deps/protobuf/missing aclocal-1.14
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
-AUTOCONF = ${SHELL} /home/fil/rtb/rtbkit-deps/protobuf/missing autoconf
-AUTOHEADER = ${SHELL} /home/fil/rtb/rtbkit-deps/protobuf/missing autoheader
-AUTOMAKE = ${SHELL} /home/fil/rtb/rtbkit-deps/protobuf/missing automake-1.14
-AWK = mawk
+AUTOCONF = ${SHELL} /home/ubuntu/rtbkit-deps/protobuf/missing autoconf
+AUTOHEADER = ${SHELL} /home/ubuntu/rtbkit-deps/protobuf/missing autoheader
+AUTOMAKE = ${SHELL} /home/ubuntu/rtbkit-deps/protobuf/missing automake-1.14
+AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = 
@@ -270,7 +270,7 @@ LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = ln -s
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/fil/rtb/rtbkit-deps/protobuf/missing makeinfo
+MAKEINFO = ${SHELL} /home/ubuntu/rtbkit-deps/protobuf/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
 NM = /usr/bin/nm -B
@@ -299,10 +299,10 @@ SET_MAKE =
 SHELL = /bin/bash
 STRIP = strip
 VERSION = 2.4.2-pre
-abs_builddir = /home/fil/rtb/rtbkit-deps/protobuf
-abs_srcdir = /home/fil/rtb/rtbkit-deps/protobuf
-abs_top_builddir = /home/fil/rtb/rtbkit-deps/protobuf
-abs_top_srcdir = /home/fil/rtb/rtbkit-deps/protobuf
+abs_builddir = /home/ubuntu/rtbkit-deps/protobuf
+abs_srcdir = /home/ubuntu/rtbkit-deps/protobuf
+abs_top_builddir = /home/ubuntu/rtbkit-deps/protobuf
+abs_top_srcdir = /home/ubuntu/rtbkit-deps/protobuf
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -333,7 +333,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/fil/rtb/rtbkit-deps/protobuf/install-sh
+install_sh = ${SHELL} /home/ubuntu/rtbkit-deps/protobuf/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -342,7 +342,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/fil/local
+prefix = /home/ubuntu/local
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
