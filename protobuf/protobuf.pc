@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/local
+prefix=/home/fil/local
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

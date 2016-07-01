@@ -5,7 +5,7 @@
 #
 # $Id: curlpp-config.in,v 1.4 2004/10/05 01:48:40 jpbl Exp $
 #
-prefix=/home/ubuntu/local
+prefix=/home/fil/local
 exec_prefix=${prefix}
 includedir=${prefix}/include
 
@@ -70,11 +70,11 @@ while test $# -gt 0; do
 	;;
 
     --cflags)
-       	echo -I${prefix}/include  -I/home/ubuntu/local/include -I/home/ubuntu/local//include
+       	echo -I${prefix}/include  -I/home/fil/local/include -I/home/fil/local//include
        	;;
 
     --libs)
-       	echo -L${exec_prefix}/lib -lcurlpp   -lstdc++ -L/home/ubuntu/local/lib -lcurl 
+       	echo -L${exec_prefix}/lib -lcurlpp   -lstdc++ -L/home/fil/local/lib -lcurl 
        	;;
 
     *)

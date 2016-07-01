@@ -92,9 +92,9 @@ cURLpp.lo: cURLpp.cpp /usr/include/stdc-predef.h \
  ../../include/curlpp/internal/global.h ../../include/curlpp/config.h \
  ../../include/curlpp/cURLpp.hpp \
  ../../include/curlpp/internal/buildconfig.h \
- /home/ubuntu/local/include/curl/curl.h \
- /home/ubuntu/local/include/curl/curlver.h \
- /home/ubuntu/local/include/curl/curlbuild.h \
+ /home/fil/local/include/curl/curl.h \
+ /home/fil/local/include/curl/curlver.h \
+ /home/fil/local/include/curl/curlbuild.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
  /usr/include/x86_64-linux-gnu/bits/uio.h \
@@ -105,7 +105,7 @@ cURLpp.lo: cURLpp.cpp /usr/include/stdc-predef.h \
  /usr/include/asm-generic/socket.h \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
- /home/ubuntu/local/include/curl/curlrules.h /usr/include/libio.h \
+ /home/fil/local/include/curl/curlrules.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h \
@@ -116,10 +116,8 @@ cURLpp.lo: cURLpp.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/ubuntu/local/include/curl/easy.h \
- /home/ubuntu/local/include/curl/multi.h \
- /home/ubuntu/local/include/curl/curl.h \
- ../../include/curlpp/Exception.hpp
+ /home/fil/local/include/curl/easy.h /home/fil/local/include/curl/multi.h \
+ /home/fil/local/include/curl/curl.h ../../include/curlpp/Exception.hpp
 
 /usr/include/stdc-predef.h:
 
@@ -349,11 +347,11 @@ cURLpp.lo: cURLpp.cpp /usr/include/stdc-predef.h \
 
 ../../include/curlpp/internal/buildconfig.h:
 
-/home/ubuntu/local/include/curl/curl.h:
+/home/fil/local/include/curl/curl.h:
 
-/home/ubuntu/local/include/curl/curlver.h:
+/home/fil/local/include/curl/curlver.h:
 
-/home/ubuntu/local/include/curl/curlbuild.h:
+/home/fil/local/include/curl/curlbuild.h:
 
 /usr/include/x86_64-linux-gnu/sys/socket.h:
 
@@ -375,7 +373,7 @@ cURLpp.lo: cURLpp.cpp /usr/include/stdc-predef.h \
 
 /usr/include/asm-generic/sockios.h:
 
-/home/ubuntu/local/include/curl/curlrules.h:
+/home/fil/local/include/curl/curlrules.h:
 
 /usr/include/libio.h:
 
@@ -403,10 +401,10 @@ cURLpp.lo: cURLpp.cpp /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
-/home/ubuntu/local/include/curl/easy.h:
+/home/fil/local/include/curl/easy.h:
 
-/home/ubuntu/local/include/curl/multi.h:
+/home/fil/local/include/curl/multi.h:
 
-/home/ubuntu/local/include/curl/curl.h:
+/home/fil/local/include/curl/curl.h:
 
 ../../include/curlpp/Exception.hpp:
