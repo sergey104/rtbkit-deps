@@ -2,7 +2,7 @@
 <tagfile>
   <compound kind="file">
     <name>zookeeper.h</name>
-    <path>/home/fil/rtb/rtbkit-deps/zookeeper/src/c/include/</path>
+    <path>/home/ubuntu/rtbkit-deps/zookeeper/src/c/include/</path>
     <filename>zookeeper_8h</filename>
     <class kind="struct">clientid_t</class>
     <class kind="struct">zoo_op</class>
@@ -708,7 +708,7 @@
   </compound>
   <compound kind="dir">
     <name>include</name>
-    <path>/home/fil/rtb/rtbkit-deps/zookeeper/src/c/include/</path>
+    <path>/home/ubuntu/rtbkit-deps/zookeeper/src/c/include/</path>
     <filename>dir_d44c64559bbebec7f509842c48db8b23.html</filename>
     <file>zookeeper.h</file>
   </compound>

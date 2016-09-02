@@ -1,12 +1,12 @@
 # This is a comment
-prefix=/home/fil/local
+prefix=/home/ubuntu/local
 exec_prefix=${prefix}
 includedir=${prefix}/include
 
 Name: curlpp
 Description: cURLpp is a libcurl C++ wrapper
 Version: 0.7.3                           
-Libs: -L${exec_prefix}/lib -lcurlpp   -lstdc++ -L/home/fil/local/lib -lcurl
-Cflags: -I${prefix}/include  -I/home/fil/local/include -I/home/fil/local//include
+Libs: -L${exec_prefix}/lib -lcurlpp   -lstdc++ -L/home/ubuntu/local/lib -lcurl
+Cflags: -I${prefix}/include  -I/home/ubuntu/local/include -I/home/ubuntu/local//include
 
  
